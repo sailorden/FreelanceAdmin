@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10px"
+    android:clickable="true"
+    android:background="@color/jet">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:id="@+id/work_first_name"
+        android:text="FirstName"
+        android:textStyle="bold"
+        android:textColor="@color/primary"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:id="@+id/work_last_name"
+        android:text="LastName"
+        android:textStyle="bold"
+        android:layout_toRightOf="@id/work_first_name"
+        android:layout_marginLeft="10sp"
+        android:textColor="@color/primary"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/work_email_label"
+        android:text="Email :"
+        android:layout_below="@id/work_first_name"
+        android:textColor="@color/primary"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/work_email"
+        android:text="a@b.c"
+        android:layout_below="@id/work_first_name"
+        android:layout_toRightOf="@id/work_email_label"
+        android:layout_marginLeft="10sp"
+        android:textColor="@color/primary"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/work_phone_label"
+        android:text="Phone :"
+        android:layout_below="@id/work_email"
+        android:textColor="@color/primary"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/work_phone"
+        android:text="9999999999"
+        android:layout_below="@id/work_email"
+        android:layout_toRightOf="@id/work_email_label"
+        android:layout_marginLeft="10sp"
+        android:textColor="@color/primary"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/work_stream_label"
+        android:text="Stream :"
+        android:layout_below="@id/work_phone_label"
+        android:textColor="@color/primary"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/work_stream"
+        android:text="B.Tech - CSE"
+        android:layout_below="@id/work_phone_label"
+        android:layout_toRightOf="@id/work_stream_label"
+        android:layout_marginLeft="10sp"
+        android:textColor="@color/primary"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/work_work_do_label"
+        android:text="Work Do :"
+        android:layout_below="@id/work_stream_label"
+        android:textColor="@color/primary"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/work_work_do"
+        android:text="Android Development"
+        android:layout_below="@id/work_stream_label"
+        android:layout_toRightOf="@id/work_work_do_label"
+        android:layout_marginLeft="10sp"
+        android:textColor="@color/primary"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/work_more_about_you_label"
+        android:text="About :"
+        android:layout_below="@id/work_work_do_label"
+        android:textColor="@color/primary"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/work_more_about_you"
+        android:text="I am a Code breaker."
+        android:layout_below="@id/work_work_do_label"
+        android:layout_toRightOf="@id/work_more_about_you_label"
+        android:layout_marginLeft="10sp"
+        android:textColor="@color/primary"/>
+
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:textSize="20sp"-->
+    <!--android:id="@+id/work_date"-->
+    <!--android:text="30/02/2052"-->
+    <!--android:layout_below="@id/work_more_about_you"-->
+    <!--android:layout_marginLeft="10sp"-->
+    <!--android:textStyle="bold"-->
+    <!--android:textColor="@color/primary"/>-->
+
+</RelativeLayout>

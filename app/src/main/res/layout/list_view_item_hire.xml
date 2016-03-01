@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10px"
+    android:clickable="true"
+    android:background="@color/jet">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:id="@+id/hire_first_name"
+        android:text="FirstName"
+        android:textStyle="bold"
+        android:textColor="@color/primary"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:id="@+id/hire_last_name"
+        android:text="LastName"
+        android:textStyle="bold"
+        android:layout_toRightOf="@id/hire_first_name"
+        android:layout_marginLeft="10sp"
+        android:textColor="@color/primary"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/hire_email_label"
+        android:text="Email :"
+        android:layout_below="@id/hire_first_name"
+        android:textColor="@color/primary"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/hire_email"
+        android:text="a@b.c"
+        android:layout_below="@id/hire_first_name"
+        android:layout_toRightOf="@id/hire_email_label"
+        android:layout_marginLeft="10sp"
+        android:textColor="@color/primary"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/hire_phone_label"
+        android:text="Phone :"
+        android:layout_below="@id/hire_email"
+        android:textColor="@color/primary"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/hire_phone"
+        android:text="9999999999"
+        android:layout_below="@id/hire_email"
+        android:layout_toRightOf="@id/hire_email_label"
+        android:layout_marginLeft="10sp"
+        android:textColor="@color/primary"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/hire_work_require_label"
+        android:text="Work Require :"
+        android:layout_below="@id/hire_phone_label"
+        android:textColor="@color/primary"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/hire_work_require"
+        android:text="To print 'Hello World'"
+        android:layout_below="@id/hire_phone_label"
+        android:layout_toRightOf="@id/hire_work_require_label"
+        android:layout_marginLeft="10sp"
+        android:textColor="@color/primary"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/hire_project_label"
+        android:text="Project :"
+        android:layout_below="@id/hire_work_require_label"
+        android:textColor="@color/primary"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/hire_project"
+        android:text="Hello World"
+        android:layout_below="@id/hire_work_require_label"
+        android:layout_toRightOf="@id/hire_project_label"
+        android:layout_marginLeft="10sp"
+        android:textColor="@color/primary"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/hire_more_skills_label"
+        android:text="Skills :"
+        android:layout_below="@id/hire_project"
+        android:textColor="@color/primary"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/hire_skills"
+        android:text="C, C++"
+        android:layout_below="@id/hire_project"
+        android:layout_toRightOf="@id/hire_more_skills_label"
+        android:layout_marginLeft="10sp"
+        android:textColor="@color/primary"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/hire_more_about_you_label"
+        android:text="About Project :"
+        android:layout_below="@id/hire_more_skills_label"
+        android:textColor="@color/primary"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/hire_more_about_you"
+        android:text="We will have a fun to print Hello World on screen"
+        android:layout_below="@id/hire_more_skills_label"
+        android:layout_toRightOf="@id/hire_more_about_you_label"
+        android:layout_marginLeft="10sp"
+        android:textColor="@color/primary"/>
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textSize="20sp"-->
+        <!--android:id="@+id/hire_date"-->
+        <!--android:text="30/02/2052"-->
+        <!--android:layout_below="@id/hire_more_about_you"-->
+        <!--android:layout_marginLeft="10sp"-->
+        <!--android:textStyle="bold"-->
+        <!--android:textColor="@color/primary"/>-->
+
+</RelativeLayout>
