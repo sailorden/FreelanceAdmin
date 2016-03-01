@@ -32,7 +32,7 @@
                 android:layout_marginTop="24dp"
                 android:layout_marginBottom="24dp"
                 android:padding="12dp"
-                android:text="I want to Hire"/>
+                android:text="Hire Requests"/>
 
             <!-- Work Button -->
             <android.support.v7.widget.AppCompatButton
@@ -43,7 +43,7 @@
                 android:layout_marginBottom="24dp"
                 android:layout_below="@id/btn_hire"
                 android:padding="12dp"
-                android:text="I want to Work"/>
+                android:text="Work Requests"/>
 
         </RelativeLayout>
 
