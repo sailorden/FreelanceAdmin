@@ -23,7 +23,7 @@ public class MyApplication extends Application {
         ParseObject.registerSubclass(Work.class);
 
         // initializing parse library
-        Parse.initialize(this, "Om2bIcLgd3hbHJ08BPwb6wPKVCZ3XCnPa3IZPfVO", "TqvqazLpeAPS4qTEmawAa27mEAjTqAlgKkAsYEZn");
+        Parse.initialize(this, "", "");
         ParseInstallation.getCurrentInstallation().saveInBackground();
     }
 
